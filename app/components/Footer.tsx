@@ -1,6 +1,6 @@
 function Footer(){
-    return <div><div className="footer mx-5 md:flex bg-[#f2f2f2] py-2 w-auto">
-    <div className="left md:mx-16">
+    return <div><div className="footer  md:flex bg-[#f2f2f2] py-2 w-full">
+    <div className="left md:mx-12">
       <ul className='my-10 ml-4'>
         <li className='text-xl font-semibold my-2'>Microsoft store</li>
         <li className='mb-4 cursor-pointer hover:underline'>Account profile</li>
@@ -9,7 +9,7 @@ function Footer(){
         <li className='mb-4 cursor-pointer hover:underline'>Order Tracking</li>
       </ul>
     </div>
-    <div className="mid1 md:mx-16">
+    <div className="mid1 md:mx-12">
       <ul className='my-10 ml-4'>
         <li className='text-xl font-semibold my-2'>Education</li>
         <li className='mb-4 cursor-pointer hover:underline'>Microsoft in education</li>
@@ -22,7 +22,7 @@ function Footer(){
         <li className='mb-4 cursor-pointer hover:underline'>Azure Students</li>
       </ul>
     </div>
-    <div className="mid2 md:mx-16">
+    <div className="mid2 md:mx-12">
       <ul className='my-10 ml-4'>
         <li className='text-xl font-semibold my-2'>Business</li>
         <li className='mb-4 cursor-pointer hover:underline'>Microsoft cloud</li>
@@ -36,7 +36,7 @@ function Footer(){
 
       </ul>
     </div>
-    <div className="mid3 md:mx-16">
+    <div className="mid3 md:mx-12">
       <ul className='my-10 ml-4'>
         <li className='text-xl font-semibold my-2'>Developer & IT</li>
         <li className='mb-4 cursor-pointer hover:underline'>Developer center</li>
@@ -49,7 +49,7 @@ function Footer(){
         <li className='mb-4 cursor-pointer hover:underline'>Visual Studio</li>
       </ul>
     </div>
-    <div className="right md:mx-16 ">
+    <div className="right md:mx-12 ">
       <ul className='my-10 ml-4'>
         <li className='text-xl font-semibold my-2'>Company</li>
         <li className='mb-4 cursor-pointer hover:underline'>Careers</li>
@@ -64,7 +64,7 @@ function Footer(){
 
 
   
-  <div className=" bg-[#f2f2f2] px-2 py-2 flex justify-between mx-5 " >
+  <div className=" bg-[#f2f2f2] py-2 flex justify-between px-5 " >
  <div>
  </div>
  <ul className="md:space-x-14 md:justify-end md:flex" >
